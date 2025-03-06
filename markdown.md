@@ -52,14 +52,14 @@ polinavasileva@MacBook-Air-Polina markdown_doc % git status
 On branch main
 nothing to commit, working tree clean
 ```
-5. Далее создала на GitHub новый репозиторий
+5. Далее создала на GitHub новый репозиторий (см. 5.1 и 5.2 - скриншоты)
 6. При попытке отправить изменения в удаленный репозиторий столкнулась с ошибкой 
 ```
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/alombace/markdown.git/'
 ```
-7. После долгой гуглежки создала personal access tokens и поборола ошибку 
+7. После долгой гуглежки создала personal access tokens и поборола ошибку (см. 7.1 скриншот)
 8. Отправила изменения на удалённый репозиторий командами:
 ```
 git remote add origin https://github.com/alombace/markdown.git
